@@ -20,7 +20,8 @@ data "aws_vpc" "default" {
   default = true
 
   tags = {
-    Name = "My VPC"}
+    Name = "Default VPC"}
+    
 }
 
 
