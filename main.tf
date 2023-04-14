@@ -18,6 +18,9 @@ data "aws_ami" "app_ami" {
 
 data "aws_vpc" "default" {
   default = true
+
+  tags = {
+    Name = "My VPC"}
 }
 
 
